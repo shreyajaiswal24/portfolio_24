@@ -23,7 +23,7 @@ const experiences: ExperienceItem[] = [
       "Developed low-latency voice AI agents using LiveKit and Retell AI for real-time conversational use cases such as sales calls and appointment booking.",
       "Worked extensively with Langfuse for LLM observability, including prompt versioning, trace inspection, latency analysis, and cost monitoring.",
     ],
-    techStack: ["n8n", "LangChain", "RAG", "LiveKit", "Retell AI", "Langfuse"],
+    techStack: ["LangChain", "RAG", "LiveKit", "Retell AI", "Langfuse"],
   },
   {
     company: "Sixty Motion",
