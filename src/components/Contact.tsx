@@ -1,8 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 
 const contactInfo = [
   {
@@ -20,7 +19,7 @@ const contactInfo = [
   {
     icon: FaMapMarkerAlt,
     label: "Location",
-    value: "Ghaziabad, Uttar Pradesh",
+    value: "Noida, Uttar Pradesh, India",
     href: null,
   },
 ];
@@ -34,12 +33,12 @@ const socialLinks = [
   {
     icon: FaLinkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/shreya-jaiswal",
+    href: "https://www.linkedin.com/in/shreya-jaiswal-a4471025b/",
   },
   {
-    icon: SiLeetcode,
-    label: "LeetCode",
-    href: "https://leetcode.com/shreyajaiswal",
+    icon: FaFileAlt,
+    label: "Resume",
+    href: "/resume.pdf",
   },
 ];
 

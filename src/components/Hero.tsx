@@ -2,9 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
-import { HiDownload } from "react-icons/hi";
+import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -88,8 +86,8 @@ export default function Hero() {
           >
             {[
               { icon: FaGithub, href: "https://github.com/shreyajaiswal24", label: "GitHub" },
-              { icon: FaLinkedin, href: "https://linkedin.com/in/shreya-jaiswal", label: "LinkedIn" },
-              { icon: SiLeetcode, href: "https://leetcode.com/shreyajaiswal", label: "LeetCode" },
+              { icon: FaLinkedin, href: "https://www.linkedin.com/in/shreya-jaiswal-a4471025b/", label: "LinkedIn" },
+              { icon: FaFileAlt, href: "/resume.pdf", label: "Resume" },
               { icon: FaEnvelope, href: "mailto:jaiswalshreya2426@gmail.com", label: "Email" },
             ].map((social) => (
               <a
