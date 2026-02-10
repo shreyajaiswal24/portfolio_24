@@ -59,6 +59,30 @@ const projects: Project[] = [
     gradient: "from-emerald-500 to-teal-600",
   },
   {
+    title: "MockPrep AI",
+    icon: TbBrain,
+    description:
+      "AI-powered interview practice platform where users record video responses and receive instant AI-generated feedback with scoring, emotional analysis, and behavioral insights.",
+    highlights: [
+      "Behavioral, Technical, and Mixed interview types with timed video recording",
+      "Instant scoring out of 100 with sub-scores for communication, relevance, structure, and confidence",
+      "Real-time facial emotion detection tracking 7 emotional states via face-api.js",
+      "Recruiter tools to create custom interviews, share links, and review candidate responses",
+    ],
+    techStack: [
+      "Next.js 14",
+      "Django",
+      "Groq API",
+      "face-api.js",
+      "TypeScript",
+      "PostgreSQL",
+    ],
+    github: "https://github.com/shreyajaiswal24/MockPrep_AI",
+    live: "https://mockprep-frontend-vuw8.onrender.com/",
+    date: "2025",
+    gradient: "from-violet-500 to-purple-600",
+  },
+  {
     title: "Mental Health Emotion-Aware AI",
     icon: TbHeart,
     description:
