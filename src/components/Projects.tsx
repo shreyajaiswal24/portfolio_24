@@ -43,22 +43,6 @@ const projects: Project[] = [
     gradient: "from-cyan-500 to-blue-600",
   },
   {
-    title: "AI Loan Recommendation System",
-    icon: TbCoin,
-    description:
-      "AI-powered system that analyzes bank documents and delivers personalized mortgage recommendations in under 3 seconds using RAG-based document intelligence.",
-    highlights: [
-      "RAG-based document intelligence using LangChain and ChromaDB",
-      "Multi-stage AI pipeline for eligibility validation and risk checks",
-      "Confidence scoring for extracted and ranked loan products",
-    ],
-    techStack: ["FastAPI", "LangChain", "ChromaDB", "LLMs", "RAG"],
-    github: "https://github.com/shreyajaiswal24/AI-Loan-Recommender",
-    live: "https://ai-loan-recommender-6.onrender.com/",
-    date: "June 2025",
-    gradient: "from-emerald-500 to-teal-600",
-  },
-  {
     title: "MockPrep AI",
     icon: TbBrain,
     description:
@@ -81,6 +65,22 @@ const projects: Project[] = [
     live: "https://mockprep-frontend-vuw8.onrender.com/",
     date: "2025",
     gradient: "from-violet-500 to-purple-600",
+  },
+  {
+    title: "AI Loan Recommendation System",
+    icon: TbCoin,
+    description:
+      "AI-powered system that analyzes bank documents and delivers personalized mortgage recommendations in under 3 seconds using RAG-based document intelligence.",
+    highlights: [
+      "RAG-based document intelligence using LangChain and ChromaDB",
+      "Multi-stage AI pipeline for eligibility validation and risk checks",
+      "Confidence scoring for extracted and ranked loan products",
+    ],
+    techStack: ["FastAPI", "LangChain", "ChromaDB", "LLMs", "RAG"],
+    github: "https://github.com/shreyajaiswal24/AI-Loan-Recommender",
+    live: "https://ai-loan-recommender-6.onrender.com/",
+    date: "June 2025",
+    gradient: "from-emerald-500 to-teal-600",
   },
   {
     title: "Mental Health Emotion-Aware AI",
@@ -149,9 +149,7 @@ export default function Projects() {
             <motion.div
               key={project.title}
               variants={cardVariants}
-              className={`glass-card rounded-2xl overflow-hidden group ${
-                index === 0 ? "lg:col-span-2" : ""
-              }`}
+              className="glass-card rounded-2xl overflow-hidden group"
             >
               {/* Top gradient bar */}
               <div
